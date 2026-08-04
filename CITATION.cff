@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  Cite the archived release of this suite, the specific component dataset used,
+  and the applicable primary data sources.
+title: "FRP Dataset Suite: composite laminate design and thermographic inspection"
+type: dataset
+version: 1.0.0
+date-released: 2026-07-29
+authors:
+  - family-names: Erbay
+    given-names: Hasan
+  - family-names: Aydin
+    given-names: Kadir
+  - family-names: Tekin
+    given-names: Hamit
+  - family-names: Ozdil
+    given-names: Ahmet
+  - family-names: Yavuz
+    given-names: Ahmet Efe
+license: CC-BY-4.0
+keywords:
+  - composite laminate
+  - classical lamination theory
+  - inverse design
+  - pulsed thermography
+  - defect segmentation
+  - non-destructive testing
+abstract: >-
+  Two separately versioned, provenance-controlled releases for
+  manufacturing-constrained composite laminate design and thermographic
+  inspection. NEX-Laminate contains deterministic CLT labels and T-COMP-PT
+  contains an attributed thermogram-mask benchmark and an external sequence
+  registry.
+
