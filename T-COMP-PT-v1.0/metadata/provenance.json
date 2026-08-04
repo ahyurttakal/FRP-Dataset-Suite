@@ -1,0 +1,42 @@
+{
+  "dataset": "T-COMP-PT",
+  "version": "1.0.0",
+  "generated_utc": "2026-07-29T00:00:00Z",
+  "included_benchmark": {
+    "doi": "https://doi.org/10.17632/jrsb4b9yy5.1",
+    "associated_article": "https://doi.org/10.1080/10589759.2025.2457593",
+    "licence": "CC BY 4.0",
+    "frames": 1034,
+    "specimens": 1,
+    "deposited_png_shape": [
+      234,
+      234
+    ],
+    "reported_acquisition_resolution": [
+      640,
+      512
+    ],
+    "resolution_discrepancy": "The source metadata reports 640x512 acquisition, while every deposited PNG is a 234x234 crop. The release preserves deposited pixels."
+  },
+  "registered_external_corpus": {
+    "doi": "https://doi.org/10.17632/v4knrwgj9y.2",
+    "associated_article": "https://doi.org/10.1016/j.dib.2020.106313",
+    "licence": "CC BY 4.0",
+    "sequences": 12,
+    "specimens": 6,
+    "bytes": 6555895186,
+    "included_in_archive": false,
+    "reason": "6.56 GB; fetched on demand from the authoritative repository."
+  },
+  "split_policy": {
+    "included_benchmark": "benchmark_only: one specimen cannot support specimen-independent claims.",
+    "external_registry": "Specimen grouped: 006/007 train, CFRP-008 validation, GFRP-008 test."
+  },
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "known_limitations": [
+    "The included masks are visible-region, frame-level masks; a pixel-to-specific-defect mapping is not deposited.",
+    "The included benchmark contains one specimen and cannot by itself estimate specimen-level generalization.",
+    "The curved corpus has no expert segmentation masks in the repository; annotations must be created under a frozen protocol.",
+    "Frame timestamps are inferred from source frame numbers and the reported 55 Hz acquisition rate."
+  ]
+}

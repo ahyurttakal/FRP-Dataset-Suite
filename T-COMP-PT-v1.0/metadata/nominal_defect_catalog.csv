@@ -1,0 +1,10 @@
+nominal_defect_id,insert_material,nominal_size_mm,nominal_depth_mm,pixel_mapping_status,source_dataset_doi
+KAPTON-01,Kapton tape,2x2,0.13,not provided in deposit; masks are frame-level visible regions,https://doi.org/10.17632/jrsb4b9yy5.1
+KAPTON-02,Kapton tape,3x3,0.13,not provided in deposit; masks are frame-level visible regions,https://doi.org/10.17632/jrsb4b9yy5.1
+KAPTON-03,Kapton tape,4x4,0.13,not provided in deposit; masks are frame-level visible regions,https://doi.org/10.17632/jrsb4b9yy5.1
+KAPTON-04,Kapton tape,2x2,0.26,not provided in deposit; masks are frame-level visible regions,https://doi.org/10.17632/jrsb4b9yy5.1
+KAPTON-05,Kapton tape,3x3,0.26,not provided in deposit; masks are frame-level visible regions,https://doi.org/10.17632/jrsb4b9yy5.1
+KAPTON-06,Kapton tape,4x4,0.26,not provided in deposit; masks are frame-level visible regions,https://doi.org/10.17632/jrsb4b9yy5.1
+KAPTON-07,Kapton tape,2x2,0.39,not provided in deposit; masks are frame-level visible regions,https://doi.org/10.17632/jrsb4b9yy5.1
+KAPTON-08,Kapton tape,3x3,0.39,not provided in deposit; masks are frame-level visible regions,https://doi.org/10.17632/jrsb4b9yy5.1
+KAPTON-09,Kapton tape,4x4,0.39,not provided in deposit; masks are frame-level visible regions,https://doi.org/10.17632/jrsb4b9yy5.1

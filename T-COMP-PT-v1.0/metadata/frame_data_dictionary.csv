@@ -1,0 +1,25 @@
+field,type,unit,description
+frame_id,string,,Stable frame identifier.
+source_dataset_id,string,,DOI-keyed source dataset label.
+source_specimen_id,string,,Deposited specimen identifier.
+source_frame_number,integer,frame,Original deposited filename stem.
+time_s_from_first_available,number,s,(source frame number - first deposited frame number) / reported 55 Hz.
+frame_rate_hz_reported,number,Hz,Frame rate reported by depositor.
+image_path,string,,Release-relative thermal image path.
+mask_path,string,,Release-relative binary mask path.
+image_sha256,string,,SHA-256 of deposited PNG bytes.
+mask_sha256,string,,SHA-256 of deposited mask PNG bytes.
+width_px_deposited,integer,pixel,Actual PNG width.
+height_px_deposited,integer,pixel,Actual PNG height.
+source_acquisition_width_px_reported,integer,pixel,Acquisition width stated by source metadata.
+source_acquisition_height_px_reported,integer,pixel,Acquisition height stated by source metadata.
+mask_present,boolean,,True when at least one mask pixel is positive.
+mask_positive_pixels,integer,pixel,Count of mask pixels equal to 255.
+mask_area_fraction,number,fraction,Positive mask pixels / image pixels.
+bbox_xmin_px,integer,pixel,Positive-mask bounding box left edge.
+bbox_ymin_px,integer,pixel,Positive-mask bounding box top edge.
+bbox_xmax_px,integer,pixel,"Positive-mask bounding box right edge, inclusive."
+bbox_ymax_px,integer,pixel,"Positive-mask bounding box bottom edge, inclusive."
+temporal_block,integer,,One of five contiguous exploratory temporal blocks; not a specimen split.
+split,category,,"benchmark_only because all 1,034 frames come from one specimen."
+data_role,category,,experimental_public_benchmark; never synthetic.
