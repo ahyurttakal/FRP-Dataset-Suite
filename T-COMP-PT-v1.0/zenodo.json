@@ -1,0 +1,24 @@
+{
+  "title": "T-COMP-PT v1.0: A provenance-controlled experimental thermography benchmark and curved-sequence registry for composite defect detection",
+  "upload_type": "dataset",
+  "description": "A complete 1,034-frame expert-annotated public CFRP thermography benchmark with paired hashes and provenance, plus an authoritative registry for twelve planar, curved, and trapezoidal CFRP/GFRP pulsed-thermography sequences.",
+  "creators": [
+    {"name": "Erbay, Hasan"},
+    {"name": "Aydin, Kadir"},
+    {"name": "Tekin, Hamit"},
+    {"name": "Ozdil, Ahmet"},
+    {"name": "Yavuz, Ahmet Efe"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "thermography",
+    "composite defect detection",
+    "CFRP",
+    "GFRP",
+    "segmentation",
+    "non-destructive testing"
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-07-29",
+  "notes": "Confirm author order, affiliations, ORCIDs, repository URL, and contributor roles before publication. The included public pixels require primary-source attribution."
+}
