@@ -1,0 +1,19 @@
+field,type,unit_or_format,required
+observation_id,string,,True
+planned_design_id,string,,True
+canonical_layup_hash,string,,True
+specimen_id,string,,True
+replicate,integer,,True
+test_standard,string,,True
+test_date,date,YYYY-MM-DD,True
+operator_id_pseudonym,string,,True
+batch_id,string,,True
+cure_cycle_id,string,,True
+measured_thickness_mm,number,mm,True
+measured_density_kg_m3,number,kg/m^3,False
+temperature_C,number,degree C,True
+relative_humidity_pct,number,%,False
+raw_data_path,string,,True
+failure_mode,category,,False
+exclusion_flag,boolean,,True
+exclusion_reason,string,,False

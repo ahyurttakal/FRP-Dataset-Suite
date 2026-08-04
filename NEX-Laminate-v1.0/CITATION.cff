@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the archived DOI release."
+title: "NEX-Laminate v1.0: A provenance-controlled numerical-experimental evidence package for inverse laminate design"
+type: dataset
+version: 1.0.0
+date-released: 2026-07-29
+authors:
+  - family-names: Erbay
+    given-names: Hasan
+  - family-names: Aydin
+    given-names: Kadir
+  - family-names: Tekin
+    given-names: Hamit
+  - family-names: Ozdil
+    given-names: Ahmet
+  - family-names: Yavuz
+    given-names: Ahmet Efe
+license: CC-BY-4.0
+abstract: >-
+  Ten thousand symmetric and balanced IM7/8552 laminate designs with
+  deterministic Classical Lamination Theory labels, public NCAMP experimental
+  material-property summary statistics, group-safe splits, and a frozen
+  protocol for paired physical validation.

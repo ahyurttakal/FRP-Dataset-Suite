@@ -1,0 +1,24 @@
+{
+  "title": "NEX-Laminate v1.0: A provenance-controlled numerical-experimental evidence package for inverse laminate design",
+  "upload_type": "dataset",
+  "description": "Ten thousand symmetric and balanced IM7/8552 laminate designs with deterministic Classical Lamination Theory labels, public NCAMP experimental material-property summary statistics, group-safe splits, and a frozen protocol for paired physical validation.",
+  "creators": [
+    {"name": "Erbay, Hasan"},
+    {"name": "Aydin, Kadir"},
+    {"name": "Tekin, Hamit"},
+    {"name": "Ozdil, Ahmet"},
+    {"name": "Yavuz, Ahmet Efe"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "composite laminate",
+    "inverse design",
+    "classical lamination theory",
+    "generative model",
+    "IM7/8552",
+    "multi-fidelity"
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-07-29",
+  "notes": "Confirm author order, affiliations, ORCIDs, repository URL, and contributor roles before publication."
+}

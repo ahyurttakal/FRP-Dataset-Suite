@@ -1,0 +1,20 @@
+{
+  "dataset": "NEX-Laminate",
+  "version": "1.0.0",
+  "records": 10000,
+  "records_by_ply_count": {
+    "8": 12,
+    "12": 212,
+    "16": 3612,
+    "20": 3164,
+    "24": 3000
+  },
+  "records_by_split": {
+    "test": 1060,
+    "test_ood_thickness": 3000,
+    "train": 4831,
+    "validation": 1109
+  },
+  "seed": 20260729,
+  "numerical_file": "numerical_clt_v1.csv.gz"
+}

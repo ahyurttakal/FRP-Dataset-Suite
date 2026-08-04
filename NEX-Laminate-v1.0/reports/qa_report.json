@@ -1,0 +1,43 @@
+{
+  "dataset": "NEX-Laminate",
+  "version": "1.0.0",
+  "status": "PASS",
+  "rows_checked": 10000,
+  "unique_layups": 10000,
+  "unique_equivalence_groups": 7984,
+  "experimental_summary_rows": 49,
+  "planned_experimental_designs": 12,
+  "counts_by_split": {
+    "test": 1060,
+    "test_ood_thickness": 3000,
+    "train": 4831,
+    "validation": 1109
+  },
+  "counts_by_ply": {
+    "8": 12,
+    "12": 212,
+    "16": 3612,
+    "20": 3164,
+    "24": 3000
+  },
+  "numeric_ranges": {
+    "Ex_GPa": {
+      "min": 37.02234288,
+      "max": 111.4721438
+    },
+    "Ey_GPa": {
+      "min": 37.02234288,
+      "max": 111.4721438
+    },
+    "Gxy_GPa": {
+      "min": 12.06637331,
+      "max": 34.20018837
+    },
+    "areal_mass_kg_m2": {
+      "min": 2.3116032,
+      "max": 6.9348096
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

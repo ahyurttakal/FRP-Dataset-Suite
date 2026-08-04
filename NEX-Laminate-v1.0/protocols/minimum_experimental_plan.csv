@@ -1,0 +1,13 @@
+planned_design_id,selection_stratum,minimum_replicates,test_family,standard_reference,required_raw_channels,status
+EXP-D01,quasi_isotropic,3,tension,ASTM D3039/D3039M-17(2025),time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D02,axial_dominant,3,tension,ASTM D3039/D3039M-17(2025),time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D03,transverse_dominant,3,tension,ASTM D3039/D3039M-17(2025),time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D04,shear_dominant,3,in-plane shear,ASTM D3518/D3518M-18(2025),time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D05,high_D16,3,flexure,ASTM D7264/D7264M-21,time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D06,low_D16,3,flexure,ASTM D7264/D7264M-21,time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D07,high_D26,3,flexure,ASTM D7264/D7264M-21,time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D08,low_D26,3,flexure,ASTM D7264/D7264M-21,time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D09,high_failure_capacity,3,flexure,ASTM D7264/D7264M-21,time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D10,low_failure_capacity,3,flexure,ASTM D7264/D7264M-21,time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D11,pareto_mass_stiffness,3,drop impact,ASTM D7136/D7136M-25,time;load;displacement;strain;temperature;failure_mode,planned_not_observed
+EXP-D12,gan_generated_holdout,3,application-specific,Frozen pre-registration,time;load;displacement;strain;temperature;failure_mode,planned_not_observed

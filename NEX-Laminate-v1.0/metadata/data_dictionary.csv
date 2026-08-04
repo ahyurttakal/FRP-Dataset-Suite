@@ -1,0 +1,59 @@
+field,type,unit,description
+record_id,string,,Stable release-local record identifier.
+canonical_layup_hash,string,,SHA-256 of the ordered full layup.
+equivalence_group_hash,string,,SHA-256 grouping a layup with its global +45/-45 sign mirror.
+layup_deg,string,degree,"Outer-to-inner-to-outer ordered ply angles, separated by semicolons."
+n_plies,integer,ply,Total number of plies.
+thickness_mm,number,mm,Total nominal laminate thickness.
+areal_mass_kg_m2,number,kg/m^2,Density times total thickness.
+material_id,string,,Foreign key to material_card.csv.
+fidelity,category,,F0_CLT: deterministic analytical label.
+split,category,,"Group-safe train, validation, test, or thickness OOD test partition."
+balanced,boolean,,True when +45 and -45 ply counts are equal.
+symmetric,boolean,,True when the stacking sequence is palindromic.
+max_contiguity,integer,ply,Maximum number of adjacent plies at the same angle.
+max_disorientation_deg,number,degree,Maximum minimum angular difference between adjacent plies.
+min_orientation_fraction,number,fraction,"Smallest fraction among 0, +45, -45, and 90 degree orientations."
+rule_valid,boolean,,"Symmetric, balanced, outer +/-45, max contiguity <=3, and >=10% each angle."
+count_0,integer,ply,Number of 0 degree plies.
+count_p45,integer,ply,Number of +45 degree plies.
+count_m45,integer,ply,Number of -45 degree plies.
+count_90,integer,ply,Number of 90 degree plies.
+xiA1,number,,Extensional lamination parameter <cos(2 theta)>.
+xiA2,number,,Extensional lamination parameter <cos(4 theta)>.
+xiA3,number,,Extensional lamination parameter <sin(2 theta)>.
+xiA4,number,,Extensional lamination parameter <sin(4 theta)>.
+xiD1,number,,Bending lamination parameter for cos(2 theta).
+xiD2,number,,Bending lamination parameter for cos(4 theta).
+xiD3,number,,Bending lamination parameter for sin(2 theta).
+xiD4,number,,Bending lamination parameter for sin(4 theta).
+A11_N_per_m,number,N/m,CLT extensional stiffness A11.
+A12_N_per_m,number,N/m,CLT extensional stiffness A12.
+A16_N_per_m,number,N/m,CLT extensional coupling stiffness A16.
+A22_N_per_m,number,N/m,CLT extensional stiffness A22.
+A26_N_per_m,number,N/m,CLT extensional coupling stiffness A26.
+A66_N_per_m,number,N/m,CLT in-plane shear stiffness A66.
+D11_N_m,number,N*m,CLT bending stiffness D11 per unit width.
+D12_N_m,number,N*m,CLT bending stiffness D12 per unit width.
+D16_N_m,number,N*m,CLT bending-twisting coupling D16.
+D22_N_m,number,N*m,CLT bending stiffness D22 per unit width.
+D26_N_m,number,N*m,CLT bending-twisting coupling D26.
+D66_N_m,number,N*m,CLT twisting stiffness D66 per unit width.
+Ex_GPa,number,GPa,Effective in-plane modulus in x.
+Ey_GPa,number,GPa,Effective in-plane modulus in y.
+Gxy_GPa,number,GPa,Effective in-plane shear modulus.
+nu_xy,number,,Effective major Poisson ratio.
+beam_EIx_N_m2,number,N*m^2,D11 times the declared 25 mm reference width.
+beam_EIy_N_m2,number,N*m^2,D22 times the declared 25 mm reference width.
+Nx_tsai_hill_capacity_N_per_m,number,N/m,"First-ply load factor for unit x-direction membrane resultant, Tsai-Hill criterion."
+Nx_max_stress_capacity_N_per_m,number,N/m,"First-ply load factor for unit x-direction membrane resultant, maximum-stress criterion."
+Ny_tsai_hill_capacity_N_per_m,number,N/m,"First-ply load factor for unit y-direction membrane resultant, Tsai-Hill criterion."
+Ny_max_stress_capacity_N_per_m,number,N/m,"First-ply load factor for unit y-direction membrane resultant, maximum-stress criterion."
+Nxy_tsai_hill_capacity_N_per_m,number,N/m,"First-ply load factor for unit in-plane shear resultant, Tsai-Hill criterion."
+Nxy_max_stress_capacity_N_per_m,number,N/m,"First-ply load factor for unit in-plane shear resultant, maximum-stress criterion."
+Mx_tsai_hill_capacity_N,number,N,"First-ply load factor for unit x-direction bending moment resultant, Tsai-Hill criterion."
+Mx_max_stress_capacity_N,number,N,"First-ply load factor for unit x-direction bending moment resultant, maximum-stress criterion."
+My_tsai_hill_capacity_N,number,N,"First-ply load factor for unit y-direction bending moment resultant, Tsai-Hill criterion."
+My_max_stress_capacity_N,number,N,"First-ply load factor for unit y-direction bending moment resultant, maximum-stress criterion."
+Mxy_tsai_hill_capacity_N,number,N,"First-ply load factor for unit twisting moment resultant, Tsai-Hill criterion."
+Mxy_max_stress_capacity_N,number,N,"First-ply load factor for unit twisting moment resultant, maximum-stress criterion."

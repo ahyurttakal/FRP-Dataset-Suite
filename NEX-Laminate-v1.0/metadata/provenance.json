@@ -1,0 +1,57 @@
+{
+  "dataset": "NEX-Laminate",
+  "version": "1.0.0",
+  "generated_utc": "2026-07-29T00:00:00Z",
+  "random_seed": 20260729,
+  "targets_by_ply_count": {
+    "8": 12,
+    "12": 212,
+    "16": 3612,
+    "20": 3164,
+    "24": 3000
+  },
+  "fidelity_definition": {
+    "F0_CLT": "Deterministic Classical Lamination Theory using an experimentally anchored RTD material card. Not a finite-element or experimental label."
+  },
+  "material_source": {
+    "title": "Hexcel 8552 IM7 Unidirectional Prepreg Material Property Data Report",
+    "report": "CAM-RP-2009-015 Rev B",
+    "url": "https://www.wichita.edu/industry_and_defense/NIAR/Documents/Qual-CAM-RP-2009-015-Rev-B-Hexcel-8552-IM7-MPDR-04.16.19.pdf",
+    "distribution": "Approved for public release; distribution unlimited."
+  },
+  "external_validation_sources": [
+    {
+      "role": "manufacturing-rule corpus",
+      "url": "https://doi.org/10.17632/rys232ynhf.3"
+    },
+    {
+      "role": "independent CLT implementation",
+      "url": "https://doi.org/10.17632/2xzwppwxrw.1"
+    }
+  ],
+  "design_rules": {
+    "angle_alphabet_deg": [
+      0,
+      45,
+      -45,
+      90
+    ],
+    "symmetric": true,
+    "balanced": true,
+    "outer_ply": "+/-45",
+    "maximum_contiguity": 3,
+    "minimum_fraction_each_orientation": 0.1,
+    "disorientation": "Recorded but not restricted below 90 degrees in v1; users may filter."
+  },
+  "split_policy": {
+    "group_key": "equivalence_group_hash",
+    "id_distribution": "70/15/15 by deterministic group hash",
+    "ood": "All 24-ply laminates are test_ood_thickness."
+  },
+  "known_limitations": [
+    "F0 labels omit geometric stress concentrations, contact, damage evolution, and impact dynamics.",
+    "The NCAMP table provides condition-level means; raw coupon traces are not copied into this release.",
+    "Density is a representative report value rather than a batch-specific measurement for each row.",
+    "A future numerical-experimental v2 must add paired laminate/subcomponent tests; planned rows are not observations."
+  ]
+}
