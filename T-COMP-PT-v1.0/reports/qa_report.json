@@ -1,0 +1,19 @@
+{
+  "dataset": "T-COMP-PT",
+  "version": "1.0.0",
+  "status": "PASS",
+  "frame_rows_checked": 1034,
+  "positive_mask_frames": 786,
+  "empty_mask_frames": 248,
+  "deposited_dimensions": [
+    [
+      234,
+      234
+    ]
+  ],
+  "external_sequences_checked": 12,
+  "external_specimens": 6,
+  "external_registered_bytes": 6555895186,
+  "errors": [],
+  "warnings": []
+}

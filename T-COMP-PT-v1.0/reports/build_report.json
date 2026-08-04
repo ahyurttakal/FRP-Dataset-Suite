@@ -1,0 +1,26 @@
+{
+  "dataset": "T-COMP-PT",
+  "version": "1.0.0",
+  "included_frames": 1034,
+  "positive_mask_frames": 786,
+  "empty_mask_frames": 248,
+  "deposited_shape": [
+    234,
+    234
+  ],
+  "source_frame_min": 3,
+  "source_frame_max": 1050,
+  "source_frame_gaps": 14,
+  "mask_positive_pixel_histogram": {
+    "0": 248,
+    "121": 430,
+    "242": 45,
+    "354": 79,
+    "410": 46,
+    "531": 66,
+    "561": 2,
+    "621": 118
+  },
+  "external_sequences_registered": 12,
+  "external_bytes_registered": 6555895186
+}
