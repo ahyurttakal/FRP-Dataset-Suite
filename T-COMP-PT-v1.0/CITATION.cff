@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Cite this derived release and the primary source dataset used."
+title: "T-COMP-PT v1.0: A provenance-controlled experimental thermography benchmark and curved-sequence registry for composite defect detection"
+type: dataset
+version: 1.0.0
+date-released: 2026-07-29
+authors:
+  - family-names: Erbay
+    given-names: Hasan
+  - family-names: Yurttakal
+    given-names: Ahmet Haşim
+  - family-names: Horasan
+    given-names: Fahrettin
+license: CC-BY-4.0
+abstract: >-
+  A complete 1,034-frame expert-annotated public CFRP thermography benchmark
+  with paired hashes and provenance, plus an authoritative registry for twelve
+  planar, curved, and trapezoidal CFRP/GFRP pulsed-thermography sequences.
