@@ -37,8 +37,6 @@ Each release retains its own README, citation metadata, provenance, data
 dictionary, build and QA reports, licence notices, source code, notebook, and
 SHA-256 manifest.
 
-For publication, follow [UPLOAD_TO_GITHUB.md](UPLOAD_TO_GITHUB.md).
-
 ## Quick validation
 
 Python 3.10 or newer is recommended.
